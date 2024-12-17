@@ -1,0 +1,14 @@
+{
+  "name": "project-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss dist/css/ --recursive"
+  },
+  "author": "Narsingh",
+  "license": "ISC",
+  "description": "Responsive portfolio",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
