@@ -30,7 +30,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.9;
   visibility: hidden;
 }
 .menu.show {
@@ -86,10 +86,11 @@
 }
 .menu .nav-link {
   display: inline-block;
-  position: 30px;
+  position: relative;
+  font-size: 30px;
   text-transform: uppercase;
   padding: 1rem 0;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
